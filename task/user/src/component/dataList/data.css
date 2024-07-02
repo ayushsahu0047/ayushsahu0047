@@ -1,0 +1,75 @@
+/* data.css */
+
+/* Container for the entire data list */
+.data-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #7dcce9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(173, 40, 40, 0.1);
+}
+
+/* Title of the data list */
+.data-list-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #18044d; /* White text color */
+}
+
+/* Container for filters, if any */
+.filter-container {
+  margin-bottom: 20px;
+}
+
+/* Input fields inside filter container */
+.filter-container input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* List for displaying data items */
+.data-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Individual item in the data list */
+.data-item {
+  margin-bottom: 10px;
+}
+
+/* Styling for each data card */
+.data-card {
+  background-color: #4e97eb; /* Updated dark blue background color */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #000000; /* White text color */
+}
+
+/* Paragraphs inside the data card */
+.data-card p {
+  margin: 5px 0;
+}
+
+/* Strong emphasis inside paragraphs */
+.data-card p strong {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .data-list-container {
+    padding: 15px; /* Increased padding for better spacing */
+  }
+  .data-list-title {
+    font-size: 22px; /* Slightly reduced font size for better readability */
+  }
+  .data-card {
+    padding: 8px 12px; /* Adjusted padding for smaller screens */
+  }
+}
